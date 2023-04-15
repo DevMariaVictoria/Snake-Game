@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+header {
+    background-image: url("img/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dbdbdb;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+h1 {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}  
+
+nav {
+    text-align: center;
+}
+  
+nav ul {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav ul li a[href="#"] {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a[href="#"]:hover {
+    color: black;
+}
+
+h3 {
+    color: #dbdbdb;
+}
+  
+canvas {
+    display: block;
+    margin: 0 auto;
+    padding-top: 200px; 
+}
+  
+  
+canvas#snake {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  
+#score {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 2px;
+}
+  
+#score h3 {
+    font-size: 24px;
+}
+  
+#score span {
+    font-size: 36px;
+    font-weight: bold;
+}
+  
+#btn-restart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+  
+#btn-restart:hover {
+    background-color: #3e8e41;
+}
+
+#btn-restart-container {
+    display: flex;
+    justify-content: center;
+}
